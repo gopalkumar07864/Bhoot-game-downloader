@@ -1,0 +1,124 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    /* Pure Black Background */
+    color: #FFF;
+    /* White text for contrast */
+    line-height: 1.6;
+}
+
+header {
+    background-color: #1a1a1a;
+    /* Slightly lighter black for header */
+    color: #FF0000;
+    /* Red for header text */
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 2px solid #FF0000;
+    /* Red border at bottom */
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    /* Subtle shadow for depth */
+}
+
+header p {
+    font-size: 1.2em;
+    color: #CCC;
+    /* Lighter grey for tagline */
+}
+
+main {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.game-info,
+.download-section {
+    background-color: #0c0c0c;
+    /* Darker black for sections */
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.4);
+    /* Red glow effect */
+    border: 1px solid #FF0000;
+    /* Red border */
+}
+
+.game-info h2,
+.download-section h3 {
+    color: #FF0000;
+    /* Red headings */
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 2em;
+}
+
+.game-info p,
+.download-section p {
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.download-section {
+    text-align: center;
+}
+
+.download-button {
+    display: inline-block;
+    background-color: #FF0000;
+    /* Red background for button */
+    color: #FFF;
+    /* White text for button */
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.5em;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    border: 2px solid #CC0000;
+    /* Darker red border */
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.6);
+    /* Glow on button */
+}
+
+.download-button:hover {
+    background-color: #CC0000;
+    /* Darker red on hover */
+    transform: translateY(-3px);
+    /* Slight lift effect */
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.8);
+    /* More intense glow */
+}
+
+.file-size {
+    font-size: 0.9em;
+    color: #AAA;
+    /* Lighter grey for file size text */
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #1a1a1a;
+    /* Slightly lighter black for footer */
+    color: #CCC;
+    /* Lighter grey for footer text */
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+    border-top: 2px solid #FF0000;
+    /* Red border at top */
+    font-size: 0.9em;
+}
